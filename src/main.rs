@@ -16,7 +16,7 @@ fn main() {
 
     println!("total time: {}us", t0.elapsed().as_micros());
     println!(
-        "time per line: {}",
+        "time per line: {}ns",
         t0.elapsed().as_nanos() as usize / input.len()
     );
     println!("Tunnel would collapse {collapse} times");
@@ -28,7 +28,7 @@ fn main() {
 
     println!("total time: {}us", t0.elapsed().as_micros());
     println!(
-        "time per line: {}",
+        "time per line: {}ns",
         t0.elapsed().as_nanos() as usize / input.len()
     );
     println!("Tunnel would collapse {collapse} times");
@@ -40,7 +40,7 @@ fn main() {
 
     println!("total time: {}us", t0.elapsed().as_micros());
     println!(
-        "time per line: {}",
+        "time per line: {}ns",
         t0.elapsed().as_nanos() as usize / input.len()
     );
     println!("Tunnel would collapse {collapse} times");
